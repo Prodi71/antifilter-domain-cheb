@@ -29,7 +29,7 @@ jobs:
         shell: bash
 
       - name: Download list
-        run: mkdir data && curl -o data/antifilter-community https://community.antifilter.download/list/community.lst
+        run: mkdir data && curl -o data/antifilter-community https://antifilter.download/list/domains.lst
 
       - name: Build dat file
         run: |
